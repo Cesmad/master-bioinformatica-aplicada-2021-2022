@@ -1,14 +1,14 @@
 # Machine Learning in Bioinformatics
-> Máster en Bioinformática Aplicada a Medicina Personalizada y Salud (Curso 2020-2021)
+> Máster en Bioinformática Aplicada a Medicina Personalizada y Salud (Curso 2021-2022)
 
 # Scheduling
-- Day 1 (17.02.2020):
+- Day 1 (9.02.2022):
 	- 1/2 Theory
 	- 1/2 Practice: Hands-On (Machine Learning Basics in Python with scikit-learn I)
-- Day 2 (18.02.2020):
+- Day 2 (10.02.2022):
 	- 1/2 Theory
 	- 1/2 Practice: Hands-On (Machine Learning Basics in Python with scikit-learn Part II)
-- Day 3 (19.02.2020):
+- Day 3 (11.02.2022):
 	- 1/2 Theory
 	- 1/2 Practice: Hands-On (Deep Learning for Image Classification)
 	
@@ -23,7 +23,7 @@ The theory slides are available [here](resources/theory-machinelearning.pdf).
 Run the following comands to pull the Docker images for the hands-on practices:
 
 ```bash
-docker pull singgroup/jupyter-machine-learning:2020-2021
+docker pull singgroup/jupyter-machine-learning:2021-2022
 docker pull singgroup/jupyter-tensorflow-notebook
 ```
 
@@ -44,7 +44,7 @@ Alternatively, the file is also available [here](data/wdbc.data).
 
 Run the following command to use the Docker image to start a Jupyter notebook with the required libraries already installed: 
 ```bash
-docker run --rm -p 8888:8888 -v "$(pwd)":"$(pwd)" -w "$(pwd)" singgroup/jupyter-machine-learning:2020-2021
+docker run --rm -p 8888:8888 -v "$(pwd)":"$(pwd)" -w "$(pwd)" singgroup/jupyter-machine-learning:2021-2022
 ```
 
 The `notebook-ml-1.ipynb` file contains the notebook to develop during these sessions.
