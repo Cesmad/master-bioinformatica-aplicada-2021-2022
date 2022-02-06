@@ -47,7 +47,7 @@ Run the following command to use the Docker image to start a Jupyter notebook wi
 docker run --rm -p 8888:8888 -v "$(pwd)":"$(pwd)" -w "$(pwd)" singgroup/jupyter-machine-learning:2021-2022
 ```
 
-The `notebook-ml-1.ipynb` file contains the notebook to develop during these sessions.
+The `resources/notebook-ml-1.ipynb` file contains the notebook to develop during these sessions.
 
 ## Day 3 Practice: Hands-On (Deep Learning for Image Classification)
 
